@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Raleway-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Raleway-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.svg">
+
+  <script defer src="js/script.js"></script>
+
+  <title>Portfolio</title>
+</head>
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <img  class="header__logo"src="" alt="Логотип">
+        <button class="header__button-menu burger">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+        <div class="header__contacts contacts">
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <p class="contacts__head">Телефон</p>
+              <a class="contacts__link" href="tel:+79373838323">+7 (922) 726 35-70</a>
+            </li>
+            <li class="contacts__item">
+              <p class="contacts__head">Email</p>
+              <a class="contacts__link" href="mailto:mazaj.ru@mil.ru">mazaj.ru@mil.ru</a>
+            </li>
+            <li class="contacts__item">
+              <p class="contacts__head">Соц. сети</p>
+              <ul class="contacts__list social">
+                <li class="social__item"><a href="#" class="social__link social__link--whatsup"></a></li>
+                <li class="social__item"><a href="#" class="social__link social__link--instagram"></a></li>
+                <li class="social__item"><a href="#" class="social__link social__link--facebook"></a></li>
+                <li class="social__item"><a href="#" class="social__link social__link--telegram"></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="present">
+        <div class="container">
+          <img src="" alt="Фотография разработчика" class="present__photo">
+          <div class="present__content">
+            <h1 class="present__title">Кир Сорокин</h1>
+            <h2 class="present__subtitle">Разработчик сайтов</h2>
+            <p class="present__description">Меня зовут Кир Сорокин, я разработчик сайтов с опытом 1 год</p>
+            <button class="present__button">Заказать</button>
+          </div>
+        </div>
+      </section>
+      <section class="advantage">
+        <div class="container">
+          <h2 class="advantage__title">Почему я</h2>
+          <ul class="advantage__list">
+            <li class="advantage__item advantage__item--stack">Стек: HTML, CSS, PHP, JavaScript, React</li>
+            <li class="advantage__item advantage__item--mockup">Создам mockup под ваш проект</li>
+            <li class="advantage__item advantage__item--inclusive">Инклюзивность</li>
+            <li class="advantage__item advantage__item--adapt">Адаптивная и кроссбраузерная вёртска</li>
+            <li class="advantage__item advantage__item--clear">Чистый валидный код</li>
+            <li class="advantage__item advantage__item--copyright">Копирайтинг</li>
+          </ul>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="container">
+          <h2 class="portfolio__title">Портфолио</h2>
+          <div class="portfolio__slider">
+            <ul class="portfolio__list">
+              <li class="portfolio__item">
+                <article class="card">
+                  <img src="" alt="" class="card__picture">
+                  <div class="card__data">
+                    <p class="card__client">Клиент: Cinema</p>
+                    <time class="card__data" datetime="2020">год: 2020</time>
+                  </div>
+                  <h3 class="card__title">Многостраничный сайт</h3>
+                </article>
+              </li>
+              <li class="portfolio__item">
+                <article class="card">
+                  <img src="" alt="" class="card__picture">
+                  <div class="card__data">
+                    <p class="card__client">Клиент: Full Apple</p>
+                    <time class="card__data" datetime="2020">год: 2020</time>
+                  </div>
+                  <h3 class="card__title">Landing-page</h3>
+                </article>
+              </li>
+              <li class="portfolio__item">
+                <article class="card">
+                  <img src="" alt="" class="card__picture">
+                  <div class="card__data">
+                    <p class="card__client">Клиент: Game Over</p>
+                    <time class="card__data" datetime="2020">год: 2019</time>
+                  </div>
+                  <h3 class="card__title">Landing-page</h3>
+                </article>
+              </li>
+              <li class="portfolio__item">
+                <article class="card">
+                  <img src="" alt="" class="card__picture">
+                  <div class="card__data">
+                    <p class="card__client">Клиент: Friendly House</p>
+                    <time class="card__data" datetime="2020">год: 2020</time>
+                  </div>
+                  <h3 class="card__title">Landing-page</h3>
+                </article>
+              </li>
+              <li class="portfolio__item">
+                <article class="card">
+                  <img src="" alt="" class="card__picture">
+                  <div class="card__data">
+                    <p class="card__client">Клиент: ItalGroup boutique</p>
+                    <time class="card__data" datetime="2020">год: 2020</time>
+                  </div>
+                  <h3 class="card__title">Многостраничный сайт</h3>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,13 @@
+.burger__line {
+  background: #FFFFFF;
+  width: 2.7rem;
+  height: .2rem;
+  display: block;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.burger__line:not(:last-child) {
+  margin-bottom: .4rem;
+}
