@@ -5,30 +5,30 @@
   font-display: swap;
   src:
     local("Open Sans"),
-    url("../fonts/Inter-Regular.woff2") format("woff2"),
-    url("../fonts/Inter-Regular.woff") format("woff");
+    url("../fonts/open-sans-v26-latin_cyrillic-regular.woff2") format("woff2"),
+    url("../fonts/open-sans-v26-latin_cyrillic-regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Open Sans";
   font-stile: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-display: swap;
   src:
     local("Open Sans"),
-    url("../fonts/Inter-Bold.woff2") format("woff2"),
-    url("../fonts/Inter-Bold.woff") format("woff");
+    url("../fonts/open-sans-v26-latin_cyrillic-500.woff2") format("woff2"),
+    url("../fonts/open-sans-v26-latin_cyrillic-500.woff") format("woff");
 }
 
 @font-face {
   font-family: "Open Sans";
   font-stile: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-display: swap;
   src:
     local("Open Sans"),
-    url("../fonts/Raleway-Bold.woff2") format("woff2"),
-    url("../fonts/Raleway-Bold.woff") format("woff");
+    url("../fonts/open-sans-v26-latin_cyrillic-600.woff2") format("woff2"),
+    url("../fonts/open-sans-v26-latin_cyrillic-600.woff") format("woff");
 }
 
 @font-face {
@@ -38,6 +38,6 @@
   font-display: swap;
   src:
     local("Open Sans"),
-    url("../fonts/Raleway-ExtraBold.woff2") format("woff2"),
-    url("../fonts/Raleway-ExtraBold.woff") format("woff");
+    url("../fonts/open-sans-v26-latin_cyrillic-700.woff2") format("woff2"),
+    url("../fonts/open-sans-v26-latin_cyrillic-700.woff") format("woff");
 }
